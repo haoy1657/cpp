@@ -1,0 +1,26 @@
+Pointeur  : 
+
+Correspond à une adresse dans la mémoire 
+Un pointeur sur un entier correspond donc à l'addresse de cet entier.
+Pour déclarer un pointeur  : 
+
+ type (de la variable sur la quelle mettre le pointeur) * nom 
+- int * p_foo --> Pointe sur un entier en mémoire
+
+Un bon réflèxe est d'initilaiser le pointeur à la valeur nulle avant utilisation : 
+- int * ptr = nullptr; 
+
+Pour récuperer l'adresse d'une variable , on utilise l'operateur adressof "&"
+
+- int a  = 0 ; 
+// Création d'un pointeur sur a  
+- int* p_a = &a ; // Pointe sur l'addresse de a 
+
+ 
+
+Utilité  : 
+
+On évite les copies 
+Permet de récuperer des adresses , Allocation dynamique --> Allouer des cases memoires pour
+créer un tableau de n cases ==> Demander en temps réel au système d'exploitation la mémoire
+dont on a besoin     

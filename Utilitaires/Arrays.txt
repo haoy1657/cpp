@@ -1,0 +1,10 @@
+Tableaux en C++ 
+
+type nom taille 
+
+exemple : int Meilleurscore[5]
+
+accès aux elements : 
+Meilleurscore[index] (on commence par 0)
+
+int Meilleurscore[5] = { 10 , 30 .... , 25 }

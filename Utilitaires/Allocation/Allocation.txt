@@ -1,0 +1,9 @@
+pour l'allocation de mémoire :
+ int n = 10;
+ char *p = new char [n]; // allocation d'un tableau de n=10 octets de mémoire
+ int *var = new int; // allocation d'une variable entière
+
+
+pour la libération de mémoire :
+ delete [] p; // restitution des 10 octets de mémoire du tableau
+ delete var; // restitution de la place mémoire allouée à la variable
